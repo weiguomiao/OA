@@ -8,7 +8,7 @@ use think\facade\Log;
 class SendMessageService
 {
     protected $app;
-    protected $appId = 'wxc298ca53b7edc2fc';
+    protected $appId = '';
 
     public function __construct()
     {
@@ -27,7 +27,7 @@ class SendMessageService
     {
         $data = [
             'touser' => $openid,//openID
-            'template_id' => '0RronsWxPvVZRmy5NwyMYCNwIRfAjpYaR04UXlYmY8Q',//模板ID
+            'template_id' => '',//模板ID
             //'url' => 'https://easywechat.org',//跳转网址
             'miniprogram' => [//跳转小程序参数
                 'appid' => $this->appId,
@@ -56,7 +56,7 @@ class SendMessageService
     {
         $data = [
             'touser' => $openid,//openID
-            'template_id' => 'xWcm26R5L3kJQFC6CfHEgRQ6LysygRvApEXKXouJpoE',//模板ID
+            'template_id' => '',//模板ID
             //'url' => 'https://easywechat.org',//跳转网址
             'miniprogram' => [//跳转小程序参数
                 'appid' => $this->appId,
@@ -88,7 +88,7 @@ class SendMessageService
     {
         $data = [
             'touser' => $openid,//openID
-            'template_id' => '6Jhy8iG0R4hwMdzOdWMlG8_K4axNCibpaT__5Z2jPnE',//模板ID
+            'template_id' => '',//模板ID
             //'url' => 'https://easywechat.org',//跳转网址
             'miniprogram' => [//跳转小程序参数
                 'appid' => $this->appId,
@@ -117,7 +117,7 @@ class SendMessageService
     {
         $data = [
             'touser' => $openid,//openID
-            'template_id' => 'lVtjKvKeQX_vrnPHTgsh15lFQtuS_93HlLFYJcjfBVU',//模板ID
+            'template_id' => '',//模板ID
             //'url' => 'https://easywechat.org',//跳转网址
             'miniprogram' => [//跳转小程序参数
                 'appid' => $this->appId,
@@ -146,7 +146,7 @@ class SendMessageService
     {
         $data = [
             'touser' => $openid,//openID
-            'template_id' => '3hXBAj9KdNC8evxslYppFnpe07b27qwC4VoivTrmffQ',//模板ID
+            'template_id' => '',//模板ID
             //'url' => 'https://easywechat.org',//跳转网址
             'miniprogram' => [//跳转小程序参数
                 'appid' => $this->appId,
